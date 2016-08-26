@@ -1,0 +1,182 @@
+
+
+
+
+#title{
+
+	background-color: gray;
+	width: 1600px;
+	height: 120px;
+	text-align: center;
+	vertical-align: left;
+	margin-left: 5px;
+	
+}
+
+#sidebar{
+	background-color: lightgray;
+	vertical-align: left;
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 5px;
+	height: 1080px;
+	width: 200px;
+}
+
+#sideBarTitle1{
+
+	text-align: center;
+
+}
+
+.barItem{
+	width: 150px;
+	height: 10px;
+	padding: 5px;
+	font-family: "Lucida Console" , monospace;
+	 list-style-type: none;
+	 text-align: center;
+	 display: block;
+
+
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+#main{
+
+	display: inline-block;
+	vertical-align: top;
+	vertical-align: left;
+	background-color: lightgray;
+	margin: 5px;
+	width: 960px;
+	height: 600px;
+}
+
+.snippet{
+	width:  150px;
+	height: 150px;
+	display: inline-block;
+	padding:80px;
+}
+
+
+
+
+#content{
+	display: inline-block;
+	font-style: block;
+	text-align: center;
+
+}
+
+
+
+#gallery{
+	background-color: transparent;
+	display: inline-block;
+	vertical-align: left;
+	vertical-align: top;
+	width: 300px;
+	height: 1080px;
+}
+
+
+
+ .galleryimg img{
+ 	display: inline-block;
+ 	vertical-align: left;
+ 	vertical-align: top;
+ 	margin:5px;
+	height: 150px;
+	width:  150px;
+}
+.galleryimg img{
+ 	display: inline-block;
+ 	vertical-align: left;
+ 	vertical-align: top;
+ 	margin:5px;
+	height: 150px;
+	width:  150px;
+}
+.galleryimg img{
+ 	display: inline-block;
+ 	vertical-align: left;
+ 	vertical-align: top;
+ 	margin:5px;
+	height: 150px;
+	width:  150px;
+}
+.galleryimg img{
+ 	display: inline-block;
+ 	vertical-align: left;
+ 	vertical-align: top;
+ 	margin:5px;
+	height: 150px;
+	width:  150px;
+}
+
+#my-imgs{
+	display: inline-block;
+	width: 800px;
+	height: 400px;
+	vertical-align: left;
+	vertical-align: top;
+	margin:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#bottom{
+	display: inline-block;
+	vertical-align: bottom;
+	vertical-align: left;
+	width: 1600px;
+	height: 160px;
+	background-color: pink;
+	margin: 5px;
+}
+#bottomAddCenter{
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	font-size: 30px;
+	vertical-align: center;
+	float: center;
+}
+#bottomAddRight{
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	font-size: 30px;
+	float: right;
+	vertical-align: right;
+}
+#bottomAddLeft{
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	font-size: 30px;
+	vertical-align: left;
+	vertical-align: top;
+
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>numSorter</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+
+</head>
+<body>
+write stuff here: <input type="number" name="enter number">
+ 	<button>Click me!</button>
+
+	<div id="num">
+		
+	</div>
+ 	
+
+
+
+
+
+
+	<script type="text/javascript">
+	var myCoolArray = [];
+   
+    $('button').click(function(){
+     
+    	  var value = Number($('input').val();)
+
+    	  myCoolArray = placeNum(myCoolArray, value);
+
+    	  for(i = 0 i, myCoolArray.length; i+=1){
+    	  	$('num').append('<p>$()')
+    	  }
+
+      
+     	 $('#num').html(value);
+     	 $('input').val('');
+    });
+ 		
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		 function placeNum(arr, number){
+        var idx = arr.length;
+        var newNum = number
+
+        while (arr[idx-1] > number) {
+          arr[idx] = arr[idx-1];
+          idx -= 1;
+        }
+
+        arr[idx] = number;
+        return arr;
+      }
+      con
+      
+
+
+
+
+	</script>
+
+
+
+
+</body>
+</html>

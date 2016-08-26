@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Grid</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src = "grid.js"></script>
+  </head>
+  <body>
+    <div class="container"></div>
+
+
+    <script type="text/javascript">
+      var color = 'red';
+      var content = `<div class='square' style='background-color:${color}'></div>`
+      $('div.container').html(content)
+
+     
+    </script>
+
+    <style>
+      div.square {
+        height: 50px;
+        width: 50px;
+      }
+    </style>
+
+  </body>
+</html>
