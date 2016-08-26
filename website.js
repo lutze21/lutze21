@@ -11,9 +11,5 @@ $(document).ready(function(){
         $('#my-img').fadeIn(2000);
         if (idx === images.length) { idx = 0; }
       }, 5000)
-		
+
 });
-
-
-
-
